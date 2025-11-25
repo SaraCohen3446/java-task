@@ -4,84 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f39e0125-af29-4634-85f5-0e8babc77c17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Status.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service-java.iml" beforeDir="false" />
+    <list default="true" id="821c4644-bc58-4b86-bbb4-a9a01d444d78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/task-service-java/subsequence-counter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service-java/subsequence-counter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service-java/subsequence-counter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service-java/subsequence-counter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service-java/subsequence-counter/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/task-service-java" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="35yUZ3pI4Of0odvwPHbSPunnNtQ" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="35yTzwwD4PbWxtAcJsGJ90TsXnr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user1/Desktop/Software Engineering/homework-task/task-migdal/task-java",
-    "onboarding.tips.debug.path": "C:/Users/user1/Desktop/Software Engineering/homework-task/task-migdal/task-service-java/task-service-java/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user1/Desktop/Software Engineering/homework-task/task-migdal/task-java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user1/Desktop/Software Engineering/homework-task/task-migdal/task-service-java/src/Main.java&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user1\Desktop\Software Engineering\homework-task\task-migdal\task-service-java\task-service-java\data" />
-      <recent name="C:\Users\user1\Desktop\Software Engineering\homework-task\task-migdal\task-service-java\task-service-java\src" />
-    </key>
-  </component>
+}</component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="task-service-java" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="task-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="task-java" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f39e0125-af29-4634-85f5-0e8babc77c17" name="Changes" comment="" />
-      <created>1764081856810</created>
+      <changelist id="821c4644-bc58-4b86-bbb4-a9a01d444d78" name="Changes" comment="" />
+      <created>1764081577777</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1764081856810</updated>
+      <updated>1764081577777</updated>
     </task>
     <servers />
   </component>
