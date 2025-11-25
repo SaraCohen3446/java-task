@@ -1,0 +1,60 @@
+1.
+- endpoints ופעולות
+ Books-
+  GET /books - קבלת רשימת כל הספרים
+  GET /books/{id} - קבלת ספר ספציפי לפי מזהה
+  POST /books - הוספת ספר חדש
+  PUT /books/{id} - עדכון ספר קיים
+  DELETE /books/{id} - מחיקת ספר
+
+ Users:
+  GET /users - קבלת רשימת כל המשתמשים
+  GET /users/{id} - קבלת משתמש ספציפי לפי מזהה
+  POST /users - הוספת משתמש חדש
+  PUT /users/{id} - עדכון משתמש קיים
+  DELETE /users/{id} - מחיקת משתמש
+
+- מבנה DTOs
+  public class BookDTO {
+      private String id;         
+      private String title;      
+      private String author;     
+      private int year;           
+      private boolean isBorrowed;
+}
+
+  public class UserDTO {
+      private String id;                   
+      private String name;                
+      private String phone;               
+      private List<String> borrowedBookIds;
+    
+}
+- שדות חובה 
+  BookDTO: id, title, author
+  UserDTO: id, name, phone
+
+2.
+ - מחלקות להזמנות + תשלומים
+  order: מייצגת הזמנה הכוללת פריטים, סכום, סטטוס ותשלום
+  orderItem: מייצגת פריט בודד בהזמנה
+  payment: מייצגת תשלום הקשור להזמנה
+  user: מייצגת משתמש כולל ההזמנות שלו
+
+ - אחריות של כל מחלקה
+  order: אחראית על פרטי ההזמנה, חישוב סכום כולל ומעקב אחרי מצב התשלום
+  orderItem: אחראית על שמירת פרטי פריט בודד בהזמנה
+  payment: אחראית על תיעוד התשלום, בדיקת הצלחה או כישלון וקישור לתשלום לפי הזמנה
+  user: אחראית על ניהול המשתמש, כולל רשימת ההזמנות שלו
+
+ - כדי לוודא שתשלום קשור להזמנה הנכונה
+  - קישור בין הזמנה לתשלום
+    לכל אובייקט  payment יש שדה  orderId שמקשר אותו ל order המתאימה
+  - אימות לפניי תשלום
+    בעת ניסיון לבצע תשלום, המערכת בודקת שההזמנה קיימת ושסכום התשלום תואם את סכום ההזמנה
+  - קישור בין הזמנה לתשלום
+    אם כל הבדיקות נכונות, המערכת מבצעת את התשלום ומקשרת אותו רשמית להזמנה
+  
+
+
+
