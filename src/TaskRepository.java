@@ -4,13 +4,16 @@ import java.util.List;
 
 public class TaskRepository {
 
+    // stores all current task
     private List<Task> tasks = new ArrayList<>();
 
+    // adds a new task and saves to file
     public void add(Task task, File file) {
         tasks.add(task);
         saveToFile(file);
     }
 
+    // updates an existing task by id and saves to file
     public void update(Task task, File file) {
         for (int i = 0; i < tasks.size(); i++) {
             if (tasks.get(i).getId() == task.getId()) {
@@ -21,6 +24,7 @@ public class TaskRepository {
         }
     }
 
+    // deletes a task by id and saves to file
     public void delete(int id, File file) {
         for (int i = 0; i < tasks.size(); i++) {
             if (tasks.get(i).getId() == id) {
@@ -31,6 +35,7 @@ public class TaskRepository {
         }
     }
 
+    // returns a task by id
     public Task getById(int id) {
         for (Task t : tasks) {
             if (t.getId() == id) return t;
@@ -38,6 +43,7 @@ public class TaskRepository {
         return null;
     }
 
+    // returns all tasks
     public List<Task> listAll() {
         return new ArrayList<>(tasks);
     }
