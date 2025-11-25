@@ -20,12 +20,12 @@ public class Task {
     }
 
 
-    // returns  task ID
+    // returns task ID
     public int getId() {
         return Id;
     }
 
-    // updates  task ID
+    // updates task ID
     public void setId(int Id) {
         this.Id = Id;
     }
