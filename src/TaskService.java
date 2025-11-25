@@ -38,7 +38,7 @@ public class TaskService {
         return result;
     }
 
-    // returns all tasks sorted by status (NEW → IN_PROGRESS → DONE)
+    // returns all tasks sorted by status
     public List<Task> sortByStatus() {
         List<Task> allTasks = repository.listAll();
         allTasks.sort(Comparator.comparing(Task::getStatus));
